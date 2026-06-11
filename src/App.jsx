@@ -363,12 +363,12 @@ function App() {
   return (
     <main className="app-shell">
       <header className="hero">
-        <p className="hero-badge">React εφαρμογή λογοθεραπείας</p>
+        <p className="hero-badge">Eφαρμογή λογοθεραπείας</p>
         <h1>Αξιολόγηση Απαντήσεων Με Ηχογράφηση</h1>
-        <p>
+        {/* <p>
           Οι εικόνες εμφανίζονται μία-μία. Συμπλήρωσε την ηλικία ως έτη:μήνες (πχ 4:8)
           για να δεις εκατοστημόρια με βάση τον πίνακα ηλικίας.
-        </p>
+        </p> */}
         <label className="age-field" htmlFor="ageInput">
           Ηλικία παιδιού (μορφή έτη:μήνες)
           <input
